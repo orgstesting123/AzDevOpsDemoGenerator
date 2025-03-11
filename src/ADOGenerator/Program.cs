@@ -8,6 +8,7 @@ using Newtonsoft.Json.Linq;
 using System.Text.RegularExpressions;
 // New change
 // New Changes
+// Staged changes 1
 var configuration = new ConfigurationBuilder()
         .SetBasePath(Directory.GetCurrentDirectory())
         .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
