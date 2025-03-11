@@ -7,6 +7,7 @@ using Microsoft.Identity.Client;
 using Newtonsoft.Json.Linq;
 using System.Text.RegularExpressions;
 // New change
+// New Changes
 var configuration = new ConfigurationBuilder()
         .SetBasePath(Directory.GetCurrentDirectory())
         .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
